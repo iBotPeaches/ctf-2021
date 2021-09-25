@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
+    <script type="application/javascript" src="crypto.js"></script>
+    <title>Challenge 3</title>
+</head>
+<body>
+<div class="container">
+    <h2>The Sourcetoad CTF (2021)</h2>
+    <p>
+        The R&D department is working on some secret things and has to protect the research from random searchers.
+    </p>
+    <div class="text-center">
+        <form id="creds">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </form>
+        <button class="btn btn-primary" onClick="check()">Sign In</button>
+    </div>
+
+    <div class="content">
+        <label id="flag">flag goes here</label>
+    </div>
+
+    <script>
+        var username = document.getElementById("username");
+        var password = document.getElementById("password");
+        var cipherText = "Maq6O33eeZ3ILYlbrP3WS/yfiPzm9GFRcZCZezuF7V/sIE/v"
+
+        function check() {
+            if (username.value === "Admin" && atob(password.value) === "s3kr1tP@ss") {
+                var key = '';
+                for (var i = 0; i <= password.value.length; i++) {
+                    key += password.value.charAt(i)
+                }
+                var flag = Tea.decrypt(cipherText, key);
+                document.getElementById("flag").innerText = flag;
+            } else {
+                document.getElementById("flag").innerText = ':( - Whoops';
+            }
+        }
+
+    </script>
+</div>
+</body>
+</html>
