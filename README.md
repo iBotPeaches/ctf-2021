@@ -18,6 +18,7 @@
  9. `TOAD{5o-YOu-knOW-How-7O-mOdIfy-CooKI3Z}` - Medium Hard - Cookie Editing
  10. `TOAD{7H3-7x7-R3c0rd-h45-7h3-53cr375}` - Medium - DNS
  11. `TOAD{51nc3-5P1d3r5-L1573n-70-7h323}` - Medium - Web
+ 12. `TOAD{R3V3r53-r3v3r23}` - Medium Hard - File Formats
 
 ---
 # Points
@@ -41,3 +42,4 @@
  9. Cookies / Serialization
  10. DNS TXT Record
  11. robots.txt
+ 12. Hex (Reversed) -> Binary
