@@ -1,7 +1,7 @@
 # Sourcetoad CTF 2021
 
- * `challenges` - each folder represents a challenge.
- * `common` - Styles used by all challenges.
+ * `web/challenges` - each folder represents a challenge.
+ * `web/common` - Styles used by all challenges.
  * `setup` - any non-public setup (mysql, etc) needed for a challenge.
 
 ---
@@ -14,6 +14,7 @@
  5. `TOAD{5t394nO9r4PHy15cooOoOol}` - Medium - Steganography
  6. `TOAD{W3lcomeToTheOutGuessJ0urney}` - Medium - Steganography
  7. `TOAD{XXD_IS_LI3GG}` - Medium - File Formats
+ 8. `TOAD{5Ql-1Nj3c710n5-4r3-345Y}` - Medium - SQL Injection
 
 ---
 # Hints
@@ -24,3 +25,4 @@
  5. Exif Data
  6. Hex Editor -> OutGuess
  7. Hex -> Binary
+ 8. SQL Injection

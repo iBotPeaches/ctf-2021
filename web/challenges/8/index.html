@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
+    <title>Challenge 8</title>
+</head>
+<body>
+<div class="container">
+    <h2>The Sourcetoad CTF (2021)</h2>
+    <p>
+        Ever since the plaintext accident, we've upgraded our security and hashed all passwords in the database as MD5.
+    </p>
+    <div class="text-center">
+        <form id="creds" action="/challenges/8/authenticate.php" method="POST">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+
+            <br />
+            <button class="btn btn-primary" type="submit">Sign In</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
