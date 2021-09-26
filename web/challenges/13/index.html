@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
+    <title>Challenge 13</title>
+</head>
+<body>
+<div class="container">
+    <h2>The Sourcetoad CTF (2021)</h2>
+    <p>
+        After learning that even MD5 is losing its security touch. We stepped up our security into pure RSA. We are
+        attaching our public key so you may verify the message (flag) below.
+    </p>
+<pre>
+$VAR1 = bless( {
+                 'e' => 65537,
+                 'Version' => '1.99',
+                 'Identity' => 'Toad Toader <info@sourcetoad.com>',
+                 'n' => '78599264824825256413656134466699332704809299388067067091173870046982888945647102332971073850638310197539'
+               }, 'Crypt::RSA::Key::Public' );
+</pre>
+    <hr />
+<pre>
+-----BEGIN COMPRESSED RSA ENCRYPTED MESSAGE-----
+Version: 1.99
+Scheme: Crypt::RSA::ES::OAEP
+
+eJwB0QIu/TEwADcwNABDeXBoZXJ0ZXh0AL2gYBzajIymPQQX2lII44ZV+H/Kyhi0/2zvKEnErIH4
+c/TSUobfrLDWE9kAeEO5mmFfyNpimpkAPGI0A1b0O1MsKTaXAjpKOFKsSd793iv5PeJvFgGFKgAo
+VtNjkEPer2vEqMIg0T+TVnG871VfyFHxtSDKN7oMBNES8R7WlbMcPYpYAF3ZyWF3R9w2H7jugdmm
+5kZdRlr6ojz03vbzB8EjfkAdgeEKM3wOPxetiPIAB0kaGjhf5t0/7zUR0y+ybYozo0zpj9HC1HGT
+RCVkIPB2lVRlHj9SPETuWgCl/q55ozlqiQrFKIiffN3YdJXnUfQ1Id7N+lziAxjdmPzYg9kZ8ea5
+i549AbU3alySzeFqSL5GTSJUrqeBamftzZtr34h7l688xQMUrWyplYUji9fj0z0Bes8I8bdv+5sd
+Ycx7IBrpADCBDJix/NKVMxozjvgmGuASew4tHiH9x1Cp4gFKzDBuD8YptbwOZfABTZmRXW7g+s5m
+kJklSleOBnZbhPLO/EyNAiqklmkOAczEBfOqiswEvvgJMzbQfYOy+Dy/UnFGLeT93lzF5uTZFl+6
+Qv4AL4LaHoQBQunm2a0w6yLiFZJvI6vG8e5LDD1NCBgBy5IK44O0l6UwqtxHbmfCnQe+JwB55W6A
+bJAdTv5VdCIqTufwt6H2Gl9FaMI1dDTOYva8Cy6+RED3xj6t22e6AV97/46blUIA6aULl3CPNeRi
+2FBEhclp7LqOSV9zz4y5cgz70f1QQqJ2VN4BC5L+5nYgjmLKWxaWsfRe2goMcGS0V47X2AD+I7w8
+CW4+gIvsauz7WR0LsQDcYFaVIM4UCGsjDauVv+mSS4OVdb8bT+PJeQdafrPYDmglzvyTmvwgzm+m
+AQ1/oUctd8OfBu1DLkyp5tp5pT++xJymrU7N0eCv9Ru9RGT5TAmoJ3kkbv9ktmD9
+=6rEf5vwjDDZYkBo1d9iO2A==
+-----END COMPRESSED RSA ENCRYPTED MESSAGE-----
+</pre>
+</div>
+</body>
+</html>

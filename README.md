@@ -10,7 +10,7 @@
  1. `TOAD{ThisIsTheFirstFlag}` - Easy - Web
  2. `TOAD{This_Is_The_Flag}` - Easy - Image
  3. `TOAD{7h15157h3fl46y0u4r3l00k1n6f0r}` - Easy - Base64
- 4. `TOAD{SO_YOU_NOW_ROT_EHH_CONGRATS}` - Easy - ROT13
+ 4. `TOAD{SO_YOU_NOW_ROT_EHH_CONGRATS}` - Easy - Crypto
  5. `TOAD{5t394nO9r4PHy15cooOoOol}` - Medium - Steganography
  6. `TOAD{W3lcomeToTheOutGuessJ0urney}` - Medium - Steganography
  7. `TOAD{XXD_IS_LI3GG}` - Medium - File Formats
@@ -19,6 +19,7 @@
  10. `TOAD{7H3-7x7-R3c0rd-h45-7h3-53cr375}` - Medium - DNS
  11. `TOAD{51nc3-5P1d3r5-L1573n-70-7h323}` - Medium - Web
  12. `TOAD{R3V3r53-r3v3r23}` - Medium Hard - File Formats
+ 13. `TOAD{8R34k1nG-rS4-1n-4-F3W-8172}` - Extreme - Crypto
 
 ---
 # Points
@@ -28,6 +29,7 @@
  * Medium Hard - 400
  * Hard - 600
  * Very Hard - 1000
+ * Extreme - 2000
 
 ---
 # Hints
@@ -43,3 +45,4 @@
  10. DNS TXT Record
  11. robots.txt
  12. Hex (Reversed) -> Binary
+ 13. RSA-Crack
