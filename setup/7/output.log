@@ -1,0 +1,1 @@
+➜  Desktop xxd -ps -c 20 connor-corner.jpg > hex

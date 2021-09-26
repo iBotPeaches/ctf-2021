@@ -13,6 +13,7 @@
  4. `TOAD{SO_YOU_NOW_ROT_EHH_CONGRATS}` - Easy - ROT13
  5. `TOAD{5t394nO9r4PHy15cooOoOol}` - Medium - Steganography
  6. `TOAD{W3lcomeToTheOutGuessJ0urney}` - Medium - Steganography
+ 7. `TOAD{XXD_IS_LI3GG}` - Medium - File Formats
 
 ---
 # Hints
@@ -22,3 +23,4 @@
  4. Caesar Cipher
  5. Exif Data
  6. Hex Editor -> OutGuess
+ 7. Hex -> Binary
