@@ -15,6 +15,7 @@
  6. `TOAD{W3lcomeToTheOutGuessJ0urney}` - Medium - Steganography
  7. `TOAD{XXD_IS_LI3GG}` - Medium - File Formats
  8. `TOAD{5Ql-1Nj3c710n5-4r3-345Y}` - Medium - SQL Injection
+ 9. `TOAD{5o-YOu-knOW-How-7O-mOdIfy-CooKI3Z}` - Medium Hard - Cookie Editing
 
 ---
 # Hints
@@ -26,3 +27,4 @@
  6. Hex Editor -> OutGuess
  7. Hex -> Binary
  8. SQL Injection
+ 9. Cookies / Serialization
