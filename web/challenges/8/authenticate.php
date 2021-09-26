@@ -17,9 +17,6 @@ $username = $_POST['username'];
 $password = md5($_POST['password']);
 
 $query = "SELECT * FROM `users` WHERE `username`= '$username' AND `password`='$password'";
-
-// lol - old PHP is ugly.
-global $conn;
 $result = mysqli_query($conn, $query);
 
 if (!$result || mysqli_num_rows($result) <= 0) {
