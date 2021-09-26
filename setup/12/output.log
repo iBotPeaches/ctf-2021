@@ -1,0 +1,1 @@
+➜  Desktop xxd -ps -c 20 challenge-12.jpg| tac > hex

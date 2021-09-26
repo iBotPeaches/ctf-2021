@@ -1,0 +1,1 @@
+tac hex | xxd -r -p - > file.jpg
