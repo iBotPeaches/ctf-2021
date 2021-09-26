@@ -1,0 +1,2 @@
+User-agent: *
+Disallow /flag-to-come-34f34f

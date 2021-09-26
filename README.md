@@ -17,6 +17,8 @@
  8. `TOAD{5Ql-1Nj3c710n5-4r3-345Y}` - Medium - SQL Injection
  9. `TOAD{5o-YOu-knOW-How-7O-mOdIfy-CooKI3Z}` - Medium Hard - Cookie Editing
  10. `TOAD{7H3-7x7-R3c0rd-h45-7h3-53cr375}` - Medium - DNS
+ 11. `TOAD{51nc3-5P1d3r5-L1573n-70-7h323}` - Medium - Web
+
 ---
 # Points
 
@@ -38,3 +40,4 @@
  8. SQL Injection
  9. Cookies / Serialization
  10. DNS TXT Record
+ 11. robots.txt
