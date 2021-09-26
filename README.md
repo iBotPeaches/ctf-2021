@@ -18,6 +18,15 @@
  9. `TOAD{5o-YOu-knOW-How-7O-mOdIfy-CooKI3Z}` - Medium Hard - Cookie Editing
 
 ---
+# Points
+
+ * Easy - 100
+ * Medium - 250
+ * Medium Hard - 400
+ * Hard - 600
+ * Very Hard - 1000
+
+---
 # Hints
  1. N/A
  2. Alt Text
