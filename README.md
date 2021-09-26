@@ -12,6 +12,7 @@
  3. `TOAD{7h15157h3fl46y0u4r3l00k1n6f0r}` - Easy - Base64
  4. `TOAD{SO_YOU_NOW_ROT_EHH_CONGRATS}` - Easy - ROT13
  5. `TOAD{5t394nO9r4PHy15cooOoOol}` - Medium - Steganography
+ 6. `TOAD{W3lcomeToTheOutGuessJ0urney}` - Medium - Steganography
 
 ---
 # Hints
@@ -20,3 +21,4 @@
  3. JS Auth - Look up atob
  4. Caesar Cipher
  5. Exif Data
+ 6. Hex Editor -> OutGuess

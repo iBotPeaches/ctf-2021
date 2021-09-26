@@ -1,0 +1,18 @@
+➜  6 git:(master) ✗ outguess -k "comic-sans-wood-bark" -d secret.txt doge.jpg out.jpg
+Reading doge.jpg....
+JPEG compression quality set to 75
+Extracting usable bits:   33285 bits
+Correctable message size: 15207 bits, 45.69%
+Encoded 'secret.txt': 264 bits, 33 bytes
+Finding best embedding...
+    0:   150(50.8%)[56.8%], bias   108(0.72), saved:    -2, total:  0.45%
+    1:   156(53.1%)[59.1%], bias   100(0.64), saved:    -3, total:  0.47%
+    6:   151(51.0%)[57.2%], bias    94(0.62), saved:    -2, total:  0.45%
+   10:   129(43.6%)[48.9%], bias    70(0.54), saved:     0, total:  0.39%
+10, 199: Embedding data: 264 in 33285
+Bits embedded: 296, changed: 129(43.6%)[48.9%], bias: 70, tot: 33223, skip: 32927
+Foiling statistics: corrections: 77, failed: 0, offset: 126.800000 +- 311.919625
+Total bits changed: 199 (change 129 + bias 70)
+Storing bitmap into data...
+Writing out.jpg....
+➜  6 git:(master) ✗
