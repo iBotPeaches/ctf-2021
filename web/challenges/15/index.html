@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
+    <title>Challenge 15</title>
+</head>
+<body>
+<div class="container">
+    <h2>The Sourcetoad CTF (2021)</h2>
+    <p>
+        Our API isn't quite ready, but we can support the Pet XML submissions. Our remaining blockers is just
+        some permission issues we are having with <kbd>/etc/passwd</kbd> and supporting other pets than dogs.
+    </p>
+    <br />
+    <hr />
+    <div class="text-center">
+        <form id="creds" action="/challenges/15/submit.php" method="POST">
+            <label for="data">Data</label>
+            <textarea id="data" name="data" rows="15" cols="50">
+<?xml version="1.0" encoding="UTF-8"?>
+<pets>
+    <dogs>
+        <dog>
+            <name>Koda</name>
+            <type>Spanish Water Dog</type>
+        </dog>
+        <dog>
+            <name>Kirby</name>
+            <type>Bichipoo</type>
+        </dog>
+    </dogs>
+</pets>
+            </textarea>
+
+            <br />
+            <button class="btn btn-primary" type="submit">Submit Dogs</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
