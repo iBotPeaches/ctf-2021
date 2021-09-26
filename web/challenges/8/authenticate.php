@@ -25,5 +25,5 @@ if (!$result || mysqli_num_rows($result) <= 0) {
 }
 
 $array = mysqli_fetch_array($result);
-echo 'TOAD{5Ql-1Nj3c710n5-4r3-345Y}';
+echo base64_decode('VE9BRHs1UWwtMU5qM2M3MTBuNS00cjMtMzQ1WX0=');
 die();
