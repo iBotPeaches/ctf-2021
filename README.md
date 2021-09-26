@@ -20,6 +20,7 @@
  11. `TOAD{51nc3-5P1d3r5-L1573n-70-7h323}` - Medium - Web
  12. `TOAD{R3V3r53-r3v3r23}` - Medium Hard - File Formats
  13. `TOAD{8R34k1nG-rS4-1n-4-F3W-8172}` - Extreme - Crypto
+ 14. `TOAD{XSS_IS_FUN}` - Medium Hard - Web
 
 ---
 # Points
@@ -46,3 +47,4 @@
  11. robots.txt
  12. Hex (Reversed) -> Binary
  13. RSA-Crack
+ 14. XSS
