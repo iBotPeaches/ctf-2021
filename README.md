@@ -16,7 +16,7 @@
  7. `TOAD{XXD_IS_LI3GG}` - Medium - File Formats
  8. `TOAD{5Ql-1Nj3c710n5-4r3-345Y}` - Medium - SQL Injection
  9. `TOAD{5o-YOu-knOW-How-7O-mOdIfy-CooKI3Z}` - Medium Hard - Cookie Editing
-
+ 10. `TOAD{7H3-7x7-R3c0rd-h45-7h3-53cr375}` - Medium - DNS
 ---
 # Points
 
@@ -37,3 +37,4 @@
  7. Hex -> Binary
  8. SQL Injection
  9. Cookies / Serialization
+ 10. DNS TXT Record
