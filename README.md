@@ -7,6 +7,9 @@
 ---
 # Flags
 
+<details>
+ <summary>See Flags</summary>
+
  1. `TOAD{ThisIsTheFirstFlag}` - Easy - Web
  2. `TOAD{This_Is_The_Flag}` - Easy - Image
  3. `TOAD{7h15157h3fl46y0u4r3l00k1n6f0r}` - Easy - Base64
@@ -23,6 +26,7 @@
  14. `TOAD{XSS_IS_FUN}` - Medium Hard - Web
  15. `TOAD{xX3-15-c0mpL373-yAy}` - Hard - Web
  16. `TOAD{57R1n95-C0mM4ND-15-C00l}` - Hard - File Formats
+</details>
 
 ---
 # Points
