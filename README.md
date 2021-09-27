@@ -22,6 +22,7 @@
  13. `TOAD{8R34k1nG-rS4-1n-4-F3W-8172}` - Extreme - Crypto
  14. `TOAD{XSS_IS_FUN}` - Medium Hard - Web
  15. `TOAD{xX3-15-c0mpL373-yAy}` - Hard - Web
+ 16. `TOAD{57R1n95-C0mM4ND-15-C00l}` - Hard - File Formats
 
 ---
 # Points
@@ -50,3 +51,4 @@
  13. RSA-Crack
  14. XSS
  15. XXE
+ 16. Hex Editor / Strings Command
