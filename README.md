@@ -26,6 +26,7 @@
  14. `TOAD{XSS_IS_FUN}` - Medium Hard - Web
  15. `TOAD{xX3-15-c0mpL373-yAy}` - Hard - Web
  16. `TOAD{57R1n95-C0mM4ND-15-C00l}` - Hard - File Formats
+ 17. `TOAD{un10N_1Nj3c710N_1S_K3wL}` - Hard - SQL Injection
 </details>
 
 ---
@@ -47,7 +48,7 @@
  5. Exif Data
  6. Hex Editor -> OutGuess
  7. Hex -> Binary
- 8. SQL Injection
+ 8. SQL Injection (OR)
  9. Cookies / Serialization
  10. DNS TXT Record
  11. robots.txt
@@ -56,3 +57,4 @@
  14. XSS
  15. XXE
  16. Hex Editor / Strings Command
+ 17. SQL Injection (UNION)
