@@ -27,6 +27,7 @@
  15. `TOAD{xX3-15-c0mpL373-yAy}` - Hard - Web
  16. `TOAD{57R1n95-C0mM4ND-15-C00l}` - Hard - File Formats
  17. `TOAD{un10N_1Nj3c710N_1S_K3wL}` - Hard - SQL Injection
+ 18. `TOAD{BRAIN_DUCK}` - Easy - File Formats
 </details>
 
 ---
@@ -58,3 +59,4 @@
  15. XXE
  16. Hex Editor / Strings Command
  17. SQL Injection (UNION)
+ 18. Brain F*ck
