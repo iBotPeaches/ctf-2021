@@ -29,6 +29,7 @@
  17. `TOAD{un10N_1Nj3c710N_1S_K3wL}` - Very Hard - Web
  18. `TOAD{BRAIN_DUCK}` - Easy - File/Text
  19. `TOAD{uRl_maNIpUlaTi0N_I5_R33l}` - Easy - Web
+ 20. `TOAD{1HdR_BL0CK}` - Very Hard - Steganography
 </details>
 
 ---
@@ -62,6 +63,7 @@
  17. SQL Injection (UNION)
  18. Brain F*ck
  19. URL Manipulation
+ 20. IHDR
 
 ---
 # Setup
