@@ -26,7 +26,7 @@
  14. `TOAD{XSS_IS_FUN}` - Medium Hard - Web
  15. `TOAD{xX3-15-c0mpL373-yAy}` - Hard - Web
  16. `TOAD{57R1n95-C0mM4ND-15-C00l}` - Hard - File Formats
- 17. `TOAD{un10N_1Nj3c710N_1S_K3wL}` - Hard - SQL Injection
+ 17. `TOAD{un10N_1Nj3c710N_1S_K3wL}` - Very Hard - SQL Injection
  18. `TOAD{BRAIN_DUCK}` - Easy - File Formats
  19. `TOAD{uRl_maNIpUlaTi0N_I5_R33l}` - Easy - Web
 </details>
