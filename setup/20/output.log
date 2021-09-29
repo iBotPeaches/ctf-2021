@@ -1,0 +1,26 @@
+➜  Desktop pngcheck -v challenge-20-2.png
+File: challenge-20-2.png (1104 bytes)
+  chunk IHDR at offset 0x0000c, length 13
+    200 x 400 image, 1-bit palette, non-interlaced
+  chunk PLTE at offset 0x00025, length 6: 2 palette entries
+  chunk pHYs at offset 0x00037, length 9: 2835x2835 pixels/meter (72 dpi)
+  chunk IDAT at offset 0x0004c, length 1008
+    zlib: deflated, 16K window, maximum compression
+  chunk IEND at offset 0x00448, length 0
+No errors detected in challenge-20-2.png (5 chunks, 89.0% compression).
+➜  Desktop pngcheck -v challenge-20-2.png
+File: challenge-20-2.png (1104 bytes)
+  chunk IHDR at offset 0x0000c, length 13
+    200 x 368 image, 1-bit palette, non-interlaced
+  CRC error in chunk IHDR (computed c778a671, expected d13cbdf3)
+ERRORS DETECTED in challenge-20-2.png
+➜  Desktop pngcheck -v challenge-20-2.png
+File: challenge-20-2.png (1104 bytes)
+  chunk IHDR at offset 0x0000c, length 13
+    200 x 368 image, 1-bit palette, non-interlaced
+  chunk PLTE at offset 0x00025, length 6: 2 palette entries
+  chunk pHYs at offset 0x00037, length 9: 2835x2835 pixels/meter (72 dpi)
+  chunk IDAT at offset 0x0004c, length 1008
+    zlib: deflated, 16K window, maximum compression
+  chunk IEND at offset 0x00448, length 0
+No errors detected in challenge-20-2.png (5 chunks, 88.0% compression).
