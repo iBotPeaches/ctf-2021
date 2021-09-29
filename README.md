@@ -11,23 +11,23 @@
  <summary>See Flags</summary>
 
  1. `TOAD{ThisIsTheFirstFlag}` - Easy - Web
- 2. `TOAD{This_Is_The_Flag}` - Easy - Image
- 3. `TOAD{7h15157h3fl46y0u4r3l00k1n6f0r}` - Easy - Base64
+ 2. `TOAD{This_Is_The_Flag}` - Easy - Steganography
+ 3. `TOAD{7h15157h3fl46y0u4r3l00k1n6f0r}` - Easy - File/Text
  4. `TOAD{SO_YOU_NOW_ROT_EHH_CONGRATS}` - Easy - Crypto
  5. `TOAD{5t394nO9r4PHy15cooOoOol}` - Medium - Steganography
  6. `TOAD{W3lcomeToTheOutGuessJ0urney}` - Medium - Steganography
- 7. `TOAD{XXD_IS_LI3GG}` - Medium - File Formats
- 8. `TOAD{5Ql-1Nj3c710n5-4r3-345Y}` - Medium - SQL Injection
- 9. `TOAD{5o-YOu-knOW-How-7O-mOdIfy-CooKI3Z}` - Medium Hard - Cookie Editing
- 10. `TOAD{7H3-7x7-R3c0rd-h45-7h3-53cr375}` - Medium - DNS
+ 7. `TOAD{XXD_IS_LI3GG}` - Medium - File/Text
+ 8. `TOAD{5Ql-1Nj3c710n5-4r3-345Y}` - Medium - Web
+ 9. `TOAD{5o-YOu-knOW-How-7O-mOdIfy-CooKI3Z}` - Medium Hard - Web
+ 10. `TOAD{7H3-7x7-R3c0rd-h45-7h3-53cr375}` - Medium - Web
  11. `TOAD{51nc3-5P1d3r5-L1573n-70-7h323}` - Medium - Web
- 12. `TOAD{R3V3r53-r3v3r23}` - Medium Hard - File Formats
+ 12. `TOAD{R3V3r53-r3v3r23}` - Medium Hard - File/Text
  13. `TOAD{8R34k1nG-rS4-1n-4-F3W-8172}` - Extreme - Crypto
  14. `TOAD{XSS_IS_FUN}` - Medium Hard - Web
  15. `TOAD{xX3-15-c0mpL373-yAy}` - Hard - Web
- 16. `TOAD{57R1n95-C0mM4ND-15-C00l}` - Hard - File Formats
- 17. `TOAD{un10N_1Nj3c710N_1S_K3wL}` - Very Hard - SQL Injection
- 18. `TOAD{BRAIN_DUCK}` - Easy - File Formats
+ 16. `TOAD{57R1n95-C0mM4ND-15-C00l}` - Hard - File/Text
+ 17. `TOAD{un10N_1Nj3c710N_1S_K3wL}` - Very Hard - Web
+ 18. `TOAD{BRAIN_DUCK}` - Easy - File/Text
  19. `TOAD{uRl_maNIpUlaTi0N_I5_R33l}` - Easy - Web
 </details>
 
@@ -62,3 +62,11 @@
  17. SQL Injection (UNION)
  18. Brain F*ck
  19. URL Manipulation
+
+---
+# Setup
+
+ * All challenges should be in dynamic point mode, but never lose more than 15% of their score.
+ * IE (A 1000 point question can only decay to 850)
+ * All hints should cost 1.5% of the question
+ * Categories are Web / Steganography / "File/Text" / Crypto
