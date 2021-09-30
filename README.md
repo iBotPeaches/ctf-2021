@@ -31,7 +31,7 @@
  19. `TOAD{uRl_maNIpUlaTi0N_I5_R33l}` - Easy - Web
  20. `TOAD{1HdR_BL0CK}` - Very Hard - Steganography
  21. `TOAD{ov3Rfl0W_TH3_r1v3r}` - Very Hard - RE
-
+ 22. `TOAD{s0_h77P_h34D3rs-r-K3Wl}` - Medium - Web
 </details>
 
 ---
