@@ -1,0 +1,8 @@
+➜  ~ curl -I http://localhost:8181/challenges/22
+HTTP/1.1 200 OK
+Host: localhost:8181
+Date: Thu, 30 Sep 2021 10:06:38 GMT
+Connection: close
+X-Powered-By: PHP/8.0.5
+X-Cat-Dog: TOAD{s0_h77P_h34D3rs-r-K3Wl}
+Content-type: text/html; charset=UTF-8
