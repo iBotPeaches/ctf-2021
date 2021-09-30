@@ -1,0 +1,9 @@
+➜  21 git:(master) ✗ gcc -zexecstack -fno-stack-protector -g question.c -o application
+question.c: In function ‘main’:
+question.c:13:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+     gets(buffer);
+     ^~~~
+     fgets
+/tmp/ccTnaXUk.o: In function `main':
+/home/ibotpeaches/Projects/PHP/ctf-2021/setup/21/question.c:13: warning: the `gets' function is dangerous and should not be used.
+➜  21 git:(master) ✗

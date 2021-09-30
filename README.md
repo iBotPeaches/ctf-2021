@@ -30,6 +30,8 @@
  18. `TOAD{BRAIN_DUCK}` - Easy - File/Text
  19. `TOAD{uRl_maNIpUlaTi0N_I5_R33l}` - Easy - Web
  20. `TOAD{1HdR_BL0CK}` - Very Hard - Steganography
+ 21. `TOAD{ov3Rfl0W_TH3_r1v3r}' - Very Hard - RE
+
 </details>
 
 ---
@@ -64,6 +66,7 @@
  18. Brain F*ck
  19. URL Manipulation
  20. IHDR
+ 21. Stack Smashing
 
 ---
 # Setup
