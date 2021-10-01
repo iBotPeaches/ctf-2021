@@ -10,7 +10,7 @@
 1. `TOAD{ThisIsTheFirstFlag}` - Easy - Web
 2. `TOAD{This_Is_The_Flag}` - Easy - Web
 3. `TOAD{7h15157h3fl46y0u4r3l00k1n6f0r}` - Easy - Web
-4. `TOAD{SO_YOU_NOW_ROT_EHH_CONGRATS}` - Easy - Crypto
+4. `TOAD{SO_YOU_NOW_ROT_EHH_CONGRATS}` - Easy - Cryptography
 5. `TOAD{5t394nO9r4PHy15cooOoOol}` - Medium - Steganography
 6. `TOAD{W3lcomeToTheOutGuessJ0urney}` - Medium - Steganography
 7. `TOAD{XXD_IS_LI3GG}` - Medium - File/Text
@@ -19,7 +19,7 @@
 10. `TOAD{7H3-7x7-R3c0rd-h45-7h3-53cr375}` - Medium - Web
 11. `TOAD{51nc3-5P1d3r5-L1573n-70-7h323}` - Medium - Web
 12. `TOAD{R3V3r53-r3v3r23}` - Medium Hard - File/Text
-13. `TOAD{8R34k1nG-rS4-1n-4-F3W-8172}` - Extreme - Crypto
+13. `TOAD{8R34k1nG-rS4-1n-4-F3W-8172}` - Extreme - Cryptography
 14. `TOAD{XSS_IS_FUN}` - Medium Hard - Web
 15. `TOAD{xX3-15-c0mpL373-yAy}` - Hard - Web
 16. `TOAD{57R1n95-C0mM4ND-15-C00l}` - Hard - File/Text
