@@ -1,4 +1,4 @@
-# Challenge 2 Solve
+# Challenge 3 Solve
 
  * Category - Web
  * Difficulty - Easy
