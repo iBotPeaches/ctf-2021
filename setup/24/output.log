@@ -1,0 +1,15 @@
+➜  ~ curl -I http://localhost:8181/challenges/24/page.php
+HTTP/1.1 402 Payment Required
+Host: localhost:8181
+Date: Fri, 01 Oct 2021 10:52:43 GMT
+Connection: close
+X-Powered-By: PHP/8.0.5
+Content-type: text/html; charset=UTF-8
+
+➜  ~ curl -IH "User-Agent: Googlebot" http://localhost:8181/challenges/24/page.php
+HTTP/1.1 200 OK
+Host: localhost:8181
+Date: Fri, 01 Oct 2021 10:52:45 GMT
+Connection: close
+X-Powered-By: PHP/8.0.5
+Content-type: text/html; charset=UTF-8
