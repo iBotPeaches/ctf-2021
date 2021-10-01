@@ -45,6 +45,7 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  21. Stack Smashing
  22. Headers
  23. SSRF
+ 24. User-Agent
 
 ---
 # Setup
