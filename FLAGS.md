@@ -1,3 +1,9 @@
+# The CTF 2021 Flag Collection
+
+1. Listen, these are here to help make the challenge easier during the port to CTFD
+2. This is too easy to cheat - take the challenges and read the solutions before just looking at these
+3. ~connor
+
 <details>
  <summary>See Flags</summary>
 
