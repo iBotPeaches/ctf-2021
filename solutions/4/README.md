@@ -15,4 +15,10 @@
  * To reverse it - you just reverse 13 characters.
  * You could probably bash this, but there is also `https://rot13.com` :)
 
+---
+
+![](challenge-4-solve.png)
+
+---
+
  * You are left with the flag - `TOAD{SO_YOU_NOW_ROT_EHH_CONGRATS}`.
