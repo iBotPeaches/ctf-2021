@@ -3,11 +3,12 @@
  * `web/challenges` - each folder represents a challenge.
  * `web/common` - Styles used by all challenges.
  * `setup` - any non-public setup (mysql, etc) needed for a challenge.
+ * `solutions` - written guides for all puzzles (to help teach afterwards).
 
 ---
 # Flags
 
-See [FLAGS.md](FLAGS.md)
+See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions](solutions) directory for explanations.
 
 ---
 # Points
