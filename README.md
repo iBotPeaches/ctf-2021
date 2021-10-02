@@ -62,7 +62,7 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  23. SSRF
  24. User-Agent
  25. CVE-2021-3129
-
+ 26. SSSS
 ---
 ## CTFD Setup
 
