@@ -1,17 +1,30 @@
 # Sourcetoad CTF 2021
+_Produced by @iBotPeaches (Connor Tumbleson), for a Q4 2021 Engineer challenge._
+
+---
 
  * `web/challenges` - each folder represents a challenge.
  * `web/common` - Styles used by all challenges.
  * `setup` - any non-public setup (mysql, etc) needed for a challenge.
+ * `notes` - any notes/partial solves for the challenge to help for the solution.
  * `solutions` - written guides for all puzzles (to help teach afterwards).
 
+## Intro
+
+ * This repo exists to make building the CTF easier. It has no real automation to spin up.
+ * The real setup for this for our CTF required a few AWS servers and a mix of Apache/Nginx.
+ * There was always a chance of collision with the players, but we took the chance.
+ * This isn't an enterprise business CTF with customized docker containers and individual environments 
+ * It may be open sourced afterwards, because all of these puzzles might be helpful to others to train/learn
+   * They were all made from hints of others or just simply made up from myself (Connor)
+
 ---
-# Flags
+## Flags
 
 See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions](solutions) directory for explanations.
 
 ---
-# Points
+## Points
 
  * Easy - 100
  * Medium - 250
@@ -21,7 +34,7 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  * Extreme - 2000
 
 ---
-# Hints
+## Hints
  1. N/A
  2. Alt Text
  3. JS Auth - Look up atob
@@ -46,9 +59,10 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  22. Headers
  23. SSRF
  24. User-Agent
+ 25. CVE-2021-3129
 
 ---
-# Setup
+## CTFD Setup
 
  * All challenges should be in dynamic point mode, but never lose more than 15% of their score.
  * IE (A 1000 point question can only decay to 850)
