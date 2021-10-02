@@ -27,6 +27,7 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
 ## Points
 
  * Easy - 100
+ * Light Medium - 150
  * Medium - 250
  * Medium Hard - 400
  * Hard - 600
@@ -67,5 +68,5 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
 
  * All challenges should be in dynamic point mode, but never lose more than 15% of their score.
  * IE (A 1000 point question can only decay to 850)
- * All hints should cost 1.5% of the question
+ * All hints should cost a max of 15% of the question
  * Categories are Web / Steganography / "File/Text" / Crypto

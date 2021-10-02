@@ -1,7 +1,7 @@
 # Challenge 4 Solve
 
- * Category - Web
- * Difficulty - Cryptography
+ * Category - Cryptography
+ * Difficulty - Light Medium
 
 ![](challenge-4.png)
 
