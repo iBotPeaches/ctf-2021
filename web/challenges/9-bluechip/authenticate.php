@@ -12,9 +12,9 @@ if ($username === 'toad' && $password === 'ca03e4b0d6a8a08f400264b5e45fb441') {
         'role' => 'user'
     ]));
 
-    header('Location: /challenges/9/home.php');
+    header('Location: /challenges/9-bluechip/home.php');
     exit();
 }
 
-header('Location: /challenges/9');
+header('Location: /challenges/9-bluechip');
 exit();

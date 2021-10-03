@@ -18,7 +18,7 @@ if (isset($parsedData['dogs']['dog'])) {
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
-    <title>Challenge 15</title>
+    <title>Challenge 15 (External E)</title>
 </head>
 <body>
 <div class="container">
@@ -29,7 +29,7 @@ if (isset($parsedData['dogs']['dog'])) {
     <div class="alert alert-success">
         We have imported $count dog(s). Thank you!!
     </div>
-    <a href="/challenges/15">Submit Another</a>
+    <a href="/challenges/15-external-e">Submit Another</a>
 </div>
 </div>
 </body>

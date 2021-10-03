@@ -1,7 +1,7 @@
 <?php
 
 if (! isset($_GET['page'])) {
-    header('Location: /challenges/19/index.php?page=3');
+    header('Location: /challenges/19-soul-raider/index.php?page=3');
     exit();
 }
 
@@ -15,7 +15,7 @@ switch ($page) {
     case 2:
     case 3:
         $content = 'The office is thinking about making a text based game.';
-        $content .= PHP_EOL . '<a href="/challenges/19/index.php?page=4">start game.</a>';
+        $content .= PHP_EOL . '<a href="/challenges/19-soul-raider/index.php?page=4">start game.</a>';
         break;
 
     case 4:
@@ -34,7 +34,7 @@ echo <<<HTML
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
-    <title>Challenge 19</title>
+    <title>Challenge 19 (SoulRaider)</title>
 </head>
 <script>
 </script>

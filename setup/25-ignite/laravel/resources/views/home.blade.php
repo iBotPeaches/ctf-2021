@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="bootstrap.min.css"/>
-    <title>Challenge 25</title>
+    <title>Challenge 25 (Ignite)</title>
 </head>
 <body>
 <div class="container">

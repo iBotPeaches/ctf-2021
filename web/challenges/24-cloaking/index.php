@@ -6,7 +6,7 @@ echo <<<HTML
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
-    <title>Challenge 24</title>
+    <title>Challenge 24 (Cloaking)</title>
 </head>
 <script>
 </script>
@@ -18,7 +18,7 @@ echo <<<HTML
             We are working on doing some cloaking techniques. So Google can see our indexing, but users have to pay!
         </p>
         <p>
-            Are we mean? - Try it out - <a href="/challenges/24/page.php">premium article about toad's history</a>
+            Are we mean? - Try it out - <a href="/challenges/24-cloaking/page.php">premium article about toad's history</a>
         </p>
     </div>
 </div>

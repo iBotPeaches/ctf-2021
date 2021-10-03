@@ -1,7 +1,7 @@
 <?php
 
 if (! isset($_GET['type'])) {
-    header('Location: /challenges/17/index.php?type=dog');
+    header('Location: /challenges/17-meldy/index.php?type=dog');
     exit();
 }
 
@@ -52,7 +52,7 @@ echo <<<HTML
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
-    <title>Challenge 17</title>
+    <title>Challenge 17 (Meldy)</title>
 </head>
 <script>
 </script>

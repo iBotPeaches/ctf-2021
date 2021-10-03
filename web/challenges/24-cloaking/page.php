@@ -30,7 +30,7 @@ echo <<<HTML
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
-    <title>Challenge 24</title>
+    <title>Challenge 24 (Cloaking)</title>
 </head>
 <script>
 </script>

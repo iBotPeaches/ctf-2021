@@ -9,8 +9,8 @@ echo <<<HTML
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/challenges/26/custom.css"/>
-    <title>Challenge 26</title>
+    <link rel="stylesheet" href="/challenges/26-shamir/custom.css"/>
+    <title>Challenge 26 (Shamir)</title>
 </head>
 <script>
 </script>

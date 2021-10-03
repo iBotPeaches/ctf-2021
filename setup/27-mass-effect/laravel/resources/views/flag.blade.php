@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ url('bootstrap.min.css', [], true) }}"/>
-    <title>Challenge 27</title>
+    <title>Challenge 27 (Mass Effect)</title>
 </head>
 <body>
 <div class="container">
