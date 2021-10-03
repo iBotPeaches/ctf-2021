@@ -1,9 +1,9 @@
 <?php
 $server = '127.0.0.1';
-$database = 'ctf-2021-challenge-8';
+$database = 'challenge8';
 $port = '3306';
-$username = 'root';
-$password = 'test';
+$username = 'challenge8';
+$password = 'qwbfh5RH3KV7Lu6Rq0HK';
 
 // Create connection
 $conn = new mysqli($server, $username, $password, $database, $port);
