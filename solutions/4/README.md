@@ -1,7 +1,7 @@
 # Challenge 4 Solve
 
  * Category - Cryptography
- * Difficulty - Light Medium
+ * Difficulty - Normal
 
 ![](challenge-4.png)
 

@@ -1,7 +1,7 @@
 # Challenge 3 Solve
 
  * Category - Web
- * Difficulty - Light Medium
+ * Difficulty - Normal
 
 ![](challenge-3.png)
 

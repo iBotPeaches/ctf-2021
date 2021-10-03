@@ -27,7 +27,7 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
 ## Points
 
  * Easy - 100
- * Light Medium - 150
+ * Normal - 150
  * Medium - 250
  * Medium Hard - 400
  * Hard - 600
