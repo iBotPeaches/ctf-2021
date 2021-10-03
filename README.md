@@ -1,6 +1,10 @@
 # Sourcetoad CTF 2021
 _Produced by @iBotPeaches (Connor Tumbleson), for a Q4 2021 Engineer challenge._
 
+ * Originally hosted on CTFd.io with a combination of some t3.nano instance on AWS
+ * Most puzzles were simple `index.html` files leading to assets/images/files.
+ * Complex puzzles leveraged the services feature of CTFd to deploy a docker image.
+
 ---
 
  * `web/challenges` - each folder represents a challenge.
