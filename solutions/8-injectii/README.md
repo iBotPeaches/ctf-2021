@@ -1,6 +1,6 @@
 # Challenge 8 (Injectii) Solve
 
-* Category - File/Text
+* Category - Web
 * Difficulty - Medium Hard
 
 ![](challenge-8.png)
