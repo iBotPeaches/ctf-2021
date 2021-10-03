@@ -20,10 +20,49 @@ $query = "SELECT * FROM `users` WHERE `username`= '$username' AND `password`='$p
 $result = mysqli_query($conn, $query);
 
 if (!$result || mysqli_num_rows($result) <= 0) {
-    echo 'Oops. Those creds are not right.';
-    die();
+    echo <<<HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
+    <title>Challenge 8 (Injectii)</title>
+</head>
+<script>
+</script>
+<body>
+<div class="container">
+    <h2>The Sourcetoad CTF (2021)</h2>
+    <div class="alert alert-danger">
+        Oops. Those creds are not right.
+    </div>
+</div>
+</body>
+</html>
+HTML;
+    return;
 }
 
 $array = mysqli_fetch_array($result);
-echo base64_decode('VE9BRHs1UWwtMU5qM2M3MTBuNS00cjMtMzQ1WX0=');
-die();
+
+$flag = base64_decode('VE9BRHs1UWwtMU5qM2M3MTBuNS00cjMtMzQ1WX0=');
+echo <<<HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
+    <title>Challenge 8 (Injectii)</title>
+</head>
+<script>
+</script>
+<body>
+<div class="container">
+    <h2>The Sourcetoad CTF (2021)</h2>
+    <div class="alert alert-success">
+        $flag
+    </div>
+</div>
+</body>
+</html>
+HTML;
