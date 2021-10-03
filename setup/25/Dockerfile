@@ -8,7 +8,7 @@ COPY --from=composer /usr/bin/composer /usr/bin/composer
 WORKDIR /code
 
 RUN composer install --ignore-platform-reqs
-RUN chmod -w resources/views/fallback.blade.php
+RUN chmod u-w resources/views/fallback.blade.php
 
 EXPOSE 8000
 CMD php artisan serve --host=0.0.0.0 -n
