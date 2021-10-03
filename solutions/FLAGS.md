@@ -14,7 +14,7 @@
 5. `TOAD{5t394nO9r4PHy15cooOoOol}` - Medium - Steganography
 6. `TOAD{W3lcomeToTheOutGuessJ0urney}` - Medium - Steganography
 7. `TOAD{XXD_IS_LI3GG}` - Medium - File/Text
-8. `TOAD{5Ql-1Nj3c710n5-4r3-345Y}` - Medium - Web
+8. `TOAD{5Ql-1Nj3c710n5-4r3-345Y}` - Medium Hard - Web
 9. `TOAD{5o-YOu-knOW-How-7O-mOdIfy-CooKI3Z}` - Medium Hard - Web
 10. `TOAD{7H3-7x7-R3c0rd-h45-7h3-53cr375}` - Medium - Web
 11. `TOAD{51nc3-5P1d3r5-L1573n-70-7h323}` - Medium - Web
