@@ -1,4 +1,4 @@
-# Challenge 2 Solve
+# Challenge 2 (Alty) Solve
 
  * Category - Web
  * Difficulty - Easy

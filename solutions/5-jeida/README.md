@@ -1,4 +1,4 @@
-# Challenge 5 Solve
+# Challenge 5 (JEIDA) Solve
 
 * Category - Steganography
 * Difficulty - Medium

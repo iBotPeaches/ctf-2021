@@ -1,4 +1,4 @@
-# Challenge 5 Solve
+# Challenge 5 (Cicada) Solve
 
 * Category - Steganography
 * Difficulty - Medium
