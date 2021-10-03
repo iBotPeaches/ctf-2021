@@ -63,6 +63,7 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  24. User-Agent
  25. CVE-2021-3129
  26. SSSS
+ 27. Mass Assignment
 ---
 ## CTFD Setup
 
