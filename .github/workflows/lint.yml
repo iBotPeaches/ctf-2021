@@ -1,0 +1,15 @@
+name: CI
+on: push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install CTFCLI
+        run: pip install ctfcli
+
+      - name: Lint Challenges
+        run: ./lint.sh

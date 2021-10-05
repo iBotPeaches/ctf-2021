@@ -9,9 +9,10 @@ _Produced by @iBotPeaches (Connor Tumbleson), for a Q4 2021 Engineer challenge._
 
  * `web/challenges` - each folder represents a challenge.
  * `web/common` - Styles used by all challenges.
- * `setup` - any non-public setup (mysql, etc) needed for a challenge.
- * `notes` - any notes/partial solves for the challenge to help for the solution.
- * `solutions` - written guides for all puzzles (to help teach afterwards).
+ * `setup` - any non-public setup (mysql, etc) needed for a challenge. - LEGACY
+ * `notes` - any notes/partial solves for the challenge to help for the solution. - LEGACY
+ * `solutions` - written guides for all puzzles (to help teach afterwards). - LEGACY
+ * `ctf` - The `challenge.yml` [specification](https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml) built files for CTFd.
 
 ## Intro
 
