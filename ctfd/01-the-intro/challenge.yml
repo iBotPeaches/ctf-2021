@@ -1,0 +1,23 @@
+name: "01-the-intro"
+author: "iBotPeaches"
+category: Web
+description: The Sourcetoad R&D department is ready to teach a CTF.
+value: 100
+type: dynamic
+extra:
+     initial: 100
+     decay: 30
+     minimum: 80
+connection_info: https://challenges-a.s0urc3704dc7f.com/challenges/1-the-intro/
+flags:
+    - TOAD{ThisIsTheFirstFlag}
+topics:
+    - information disclosure
+    - buffer overflow
+    - memory forensics
+tags:
+    - web
+hints:
+    - Sorry. Its in plaintext.
+state: visible
+version: "0.1"
