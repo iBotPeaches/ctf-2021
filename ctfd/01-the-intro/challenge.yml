@@ -8,13 +8,13 @@ extra:
      initial: 100
      decay: 30
      minimum: 80
-connection_info: https://challenges-a.s0urc3704dc7f.com/challenges/1-the-intro/
+connection_info: https://challenges-a.s0urc3704dc7f.com/challenges/1-the-intro
+host: null
+files: null
 flags:
     - TOAD{ThisIsTheFirstFlag}
 topics:
-    - information disclosure
-    - buffer overflow
-    - memory forensics
+    - plaintext information
 tags:
     - web
 hints:
