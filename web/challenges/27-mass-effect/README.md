@@ -1,1 +1,1 @@
-This one is setup via Laravel. See setup/27.
+This one is setup via CTFd. See setup/27.
