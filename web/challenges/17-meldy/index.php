@@ -9,7 +9,7 @@ $server = '127.0.0.1';
 $database = 'challenge17';
 $port = '3306';
 $username = 'challenge17';
-$password = 'qwbfh5RH3KV7Lu6Rq0HK';
+$password = 'qwbfh5RHk3V7Lu6Rq0HK';
 
 // Create connection
 $conn = new mysqli($server, $username, $password, $database, $port);
