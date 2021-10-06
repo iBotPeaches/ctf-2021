@@ -42,6 +42,20 @@ and join in the `settings` table.
 * So after a slow trial and error. It appears we joined the results together.
 * Our code isn't perfect as the result set looks odd due to the `null` injection, but it works. The flag is in
 plaintext.
+* So now lets look back at the actual query to see how the injection occurred.
+
+```mysql
+SELECT * FROM `pets` WHERE `type` = '$whereBy'
+```
+
+* So our injection (after the URL encoding is cleaned up becomes)
+
+```mysql
+SELECT * FROM `pets` WHERE `type` = 'cat' AND 1=1 UNION SELECT name,value,null from settings#'
+```
+
+* So we group a `WHERE` clause with a `UNION SELECT`. Due to the column count being different we must add a `null`
+* Our `#` at the end comments out the rest of the query which was just the ending single quote and successfully injected
 
 ---
 * You are left with the flag - `TOAD{un10N_1Nj3c710N_1S_K3wL}`.
