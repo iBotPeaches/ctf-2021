@@ -18,10 +18,9 @@ _Produced by @iBotPeaches (Connor Tumbleson), for a Q4 2021 Engineer challenge._
 
  * This repo exists to make building the CTF easier. It has no real automation to spin up.
  * The real setup for this for our CTF required a few AWS servers and a mix of Apache/Nginx.
- * There was always a chance of collision with the players, but we took the chance.
- * This isn't an enterprise business CTF with customized docker containers and individual environments 
+ * [CTFd](https://cloud.ctfd.io/) was used for this original event.
  * It may be open sourced afterwards, because all of these puzzles might be helpful to others to train/learn
-   * They were all made from hints of others or just simply made up from myself (Connor)
+   * They were all made from hints of others or just simply made up
 
 ---
 ## Flags
