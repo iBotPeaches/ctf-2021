@@ -22,7 +22,7 @@
 13. `TOAD{8R34k1nG-rS4-1n-4-F3W-8172}` - Extreme - Cryptography
 14. `TOAD{XSS_IS_FUN}` - Medium Hard - Web
 15. `TOAD{xX3-15-c0mpL373-yAy}` - Hard - Web
-16. `TOAD{57R1n95-C0mM4ND-15-C00l}` - Hard - File/Text
+16. `TOAD{57R1n95-C0mM4ND-15-C00l}` - Medium Hard - File/Text
 17. `TOAD{un10N_1Nj3c710N_1S_K3wL}` - Very Hard - Web
 18. `TOAD{BRAIN_DUCK}` - Normal - File/Text
 19. `TOAD{uRl_maNIpUlaTi0N_I5_R33l}` - Easy - Web
