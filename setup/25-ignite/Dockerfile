@@ -11,4 +11,4 @@ RUN composer install --ignore-platform-reqs
 RUN chmod u-w resources/views/fallback.blade.php
 
 EXPOSE 8000
-CMD php artisan serve --host=0.0.0.0 -n
+CMD ["php", "artisan", "serve", "--host", "0.0.0.0"]
