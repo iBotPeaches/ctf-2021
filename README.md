@@ -37,7 +37,7 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  * Hard - 600
  * Very Hard - 1000
  * Extreme - 2000
- * Ultimate - 4000
+ * Ultimate - 3000
 
 ---
 ## Hints
