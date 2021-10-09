@@ -1,4 +1,5 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+/*  CTF - There is nothing in this file related to the challenge. You can ignore this file.       */
 /*  Block TEA (xxtea) Tiny Encryption Algorithm implementation in JavaScript                      */
 /*     (c) Chris Veness 2002-2012: www.movable-type.co.uk/tea-block.html                          */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
