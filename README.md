@@ -62,7 +62,7 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  19. URL Manipulation
  20. IHDR
  21. Stack Smashing
- 22. Headers
+ 22. RFC4229
  23. SSRF
  24. User-Agent
  25. CVE-2021-3129
