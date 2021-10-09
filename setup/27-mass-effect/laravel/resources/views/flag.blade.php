@@ -16,10 +16,6 @@
         <div class="alert alert-success">
             TOAD{7h3-c475-W3R3-b0rN-fR0m-m422-4221gnM3N7}
         </div>
-        <p>
-            Congrats. This is a shared challenge. So I recommend you delete your "pet" immediately so others
-            can't instantly solve this challenge.
-        </p>
     @else
         <div class="alert alert-warning">
             No cats detected! Get outta here dog!!
