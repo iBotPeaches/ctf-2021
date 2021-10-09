@@ -68,6 +68,8 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  25. CVE-2021-3129
  26. SSSS
  27. Mass Assignment
+ 28. Binary via colors?
+
 ---
 ## CTFD Setup
 
