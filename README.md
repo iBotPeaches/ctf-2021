@@ -42,7 +42,7 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
 ---
 ## Hints
  1. N/A
- 2. Alt Text
+ 2. Alt Text (Base64)
  3. JS Auth - Look up atob
  4. Caesar Cipher
  5. Exif Data
