@@ -12,8 +12,6 @@ echo <<<HTML
     <link rel="stylesheet" href="/challenges/26-shamir/custom.css"/>
     <title>Challenge 26 (Shamir)</title>
 </head>
-<script>
-</script>
 <body>
 <div class="container">
 	<h2>The Sourcetoad CTF (2021)</h2>

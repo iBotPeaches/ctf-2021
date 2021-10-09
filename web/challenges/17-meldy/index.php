@@ -54,8 +54,6 @@ echo <<<HTML
     <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
     <title>Challenge 17 (Meldy)</title>
 </head>
-<script>
-</script>
 <body>
 <div class="container">
     <h2>The Sourcetoad CTF (2021)</h2>

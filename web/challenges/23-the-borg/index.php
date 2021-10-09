@@ -17,8 +17,6 @@ echo <<<HTML
     <link rel="stylesheet" href="../../common/bootstrap.min.css"/>
     <title>Challenge 23 (The Borg)</title>
 </head>
-<script>
-</script>
 <body>
 <div class="container">
     <h2>The Sourcetoad CTF (2021)</h2>
