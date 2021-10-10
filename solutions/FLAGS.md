@@ -35,4 +35,6 @@
 26. `TOAD{5H4M1R-53CR375-4R3-CL3V3r-L1k3-4-PUn}` - Medium Hard - Cryptography
 27. `TOAD{7h3-c475-W3R3-b0rN-fR0m-m422-4221gnM3N7}` - Very Hard - Laravel
 28. `TOAD{p4R51n9-LOop5-TO-45c11}` - Hard - Web
+29. `TOAD{5h4R3d-ho571N9-15-No7-9OOD}` - Medium - Laravel
+
 </details>
