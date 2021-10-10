@@ -10,7 +10,7 @@
     <h2>The Sourcetoad CTF (2021)</h2>
     <p>
         Welcome to our company directory. We are trying to allow employees to find others, but also we want
-        to hide the admins from this directory. The SPA is not yet ready, but the table below is partial completion.
+        to hide the admins from this directory. We were working on filtering on like id, but then ran out of time.
     </p>
     <challenge30></challenge30>
     <footer class="footer">
