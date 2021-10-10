@@ -12,17 +12,6 @@
         Welcome to the Pet dashboard. The cats are keeping this flag locked down. Unfortunately, all the cats
         are on vacation. So the flag won't open till we get a cat.
     </p>
-    <p>
-        After we resolve that issue. We should probably redo our database. It is pretty poorly built.
-<pre>
-Schema::create('pets', function (Blueprint $table) {
-    $table->id('id');
-    $table->string('type', 3);
-    $table->string('name', 32);
-    $table->string('color', 32);
-});
-</pre>
-</p>
     <hr />
     <a class="btn btn-info btn-block" href="{{ route('pet.create') }}">create pet</a>
     <br />
