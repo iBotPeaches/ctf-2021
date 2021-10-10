@@ -1,0 +1,1 @@
+This one is setup via CTFd. See setup/30.
