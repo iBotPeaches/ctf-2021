@@ -70,6 +70,8 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  27. Mass Assignment
  28. Binary via colors?
  29. dotenv
+ 30. CVE-2021-21263
+
 ---
 ## CTFD Setup
 
