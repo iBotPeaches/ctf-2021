@@ -1,0 +1,11 @@
+➜  ctf-2021 git:(master) ssss-split -t 5 -n 7 -w DAOT
+WARNING: couldn't get memory lock (ENOMEM, try to adjust RLIMIT_MEMLOCK!).
+Generating shares using a (5,7) scheme with dynamic security level.
+Enter the secret, at most 128 ASCII characters: Using a 336 bit security level.
+DAOT-1-5ea0702f05fc4e63f31073bd9c9c55a84f09bac7e130f90289c11cadf858bc78a8279a02f13873a47756
+DAOT-2-e171241ba4458f7f24d5e80d4b80803348817693f2358867e5c0bc4eaf7d63b96ec740277a14b587c2de
+DAOT-3-27c216ee602e009f857b442ac4d029184739429fd1e81cdf24781dd79533d97766c0bc0d28dd8cc8d373
+DAOT-4-8133536aded89123a249b48d545e4d4d449f07ccff68fe92c2c7be8d510e913da1fd440d242917316e34
+DAOT-5-9aae5ea80bb6abd4cfbd0d00f0443e337f2f957002079b5a7d25348c218a014e3929d4a185132d8b3855
+DAOT-6-9f2374f2880400e780ccbde471cd5f0210b61445ac6708dfed90c35fe33b8bf4de6fd789e9d9ec4203be
+DAOT-7-1bb1c6e15bdd067aaffd6ee7dba2690dfab30a1fa3352607406c47005027ced5c04be5c9b5c5bbdf4fb4
