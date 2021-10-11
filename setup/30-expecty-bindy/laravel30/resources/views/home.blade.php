@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="{{ url('bootstrap.min.css', [], false) }}"/>
+    <link rel="stylesheet" href="{{ url('bootstrap.min.css', [], true) }}"/>
     <title>Challenge 30 (Expecty Bindy)</title>
 </head>
 <body>
