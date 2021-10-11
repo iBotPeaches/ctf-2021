@@ -20,5 +20,5 @@
     </footer>
 </div>
 </body>
-<script src="{{ url('js/app.js', [], false) }}"></script>
+<script src="{{ url('js/app.js', [], true) }}"></script>
 </html>
