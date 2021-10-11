@@ -1,6 +1,15 @@
 version: "3"
 services:
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: 'true'
+      MARIADB_DATABASE: 'cve'
+      MARIADB_INITDB_SKIP_TZINFO: 'true'
   web:
     build: .
+    depends_on:
+      - db
     ports:
       - "127.0.0.1:8000:8000"

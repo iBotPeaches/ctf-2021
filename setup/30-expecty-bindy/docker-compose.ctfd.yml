@@ -1,6 +1,15 @@
 version: "3"
 services:
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: 'true'
+      MARIADB_DATABASE: 'cve'
+      MARIADB_INITDB_SKIP_TZINFO: 'true'
   web:
     image: registry.ctfd.io/sourcetoad-ctf-2021/challenge-30-fa9sff
+    depends_on:
+      - db
     ports:
       - "8000"
