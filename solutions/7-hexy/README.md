@@ -28,4 +28,4 @@
 
 ![](challenge-7-solve.jpg)
 
- * You are left with the flag - `TOAD{XXD_IS_LI3GG}`.
+ * You are left with the flag - `TOAD{XXD_IS_LIF3GG}`.
