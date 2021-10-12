@@ -7,23 +7,40 @@
 
  * This challenge appears to be another in the form of cryptography
  * The challenge is named Shamir, which you probably recognize as the S in RSA
- * So a bit of Googling finds [Shamir Secret Sharing](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)
- * So then another Google to find an [online site](https://iancoleman.io/shamir/) for this.
+ * There is a language unrecognized (`ஐந்து`) which Google says stands for "5".
+ * So a bit more of Googling finds [Shamir Secret Sharing](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)
+ * So then another Google to find an [online site](http://point-at-infinity.org/ssss/demo.html) for this.
 
 ![](challenge-26-shamir.png)
 
-* So now the description of this webpage makes sense. We must need to find 4 parts.
-* The first is given and the 2nd is binary. So 2 down.
-* The HTML source has another, and references a `custom.css` file.
+* So now the description of this webpage makes sense. We must need to find 5 parts.
+* The first is given.
+* The HTML source has two (one binary and one plaintext), and references a `custom.css` file.
 
 ```css
 .color-green {
-    content: '806fb3fa908d2e500acce2ea5c5e99e1b095e49c36b22338a735cc0cc79823a452ea3bf10e007fdf50b8dc66281722312e965beaec62b6cac816a9df1b8534e7f1e4afd557257c01e5ef4b0505f4da604fd73057e8e0e80fb94f2a3ec554144dedba6d0d47c2c727f0213156ff408c0baea6a2cb5a48daf465e99611b018d3dec4d'
+    content: 'DAOT-1-5ea0702f05fc4e63f31073bd9c9c55a84f09bac7e130f90289c11cadf858bc78a8279a02f13873a47756'
 }
 ```
 
 * Which of course has another part.
-* So now we have 4 parts. Lets head back.
+* So we need one more still.
+* Lets try `curl -I` again.
+
+```
+➜  ~ curl -I https://[redacted]/challenges/26-shamir/
+HTTP/1.1 200 OK
+Server: nginx/1.20.0
+Date: Mon, 11 Oct 2021 23:58:17 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.21
+X-Part: DAOT-2-e171241ba4458f7f24d5e80d4b80803348817693f2358867e5c0bc4eaf7d63b96ec740277a14b587c2de
+Set-Cookie: another-part=DAOT-3-27c216ee602e009f857b442ac4d029184739429fd1e81cdf24781dd79533d97766c0bc0d28dd8cc8d373
+```
+
+* We found two more there!
+* We have enough to recombine
 
 ![](challenge-26-solve.png)
 
