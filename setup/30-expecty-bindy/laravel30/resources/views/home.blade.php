@@ -15,7 +15,7 @@
     <challenge30></challenge30>
     <footer class="footer">
         <div class="container">
-            <p class="text-muted">Powered via Laravel 8.22.0</p>
+            <p class="text-muted">Powered via Laravel 8.22.0 <span class="text-danger">[update available]</span></p>
         </div>
     </footer>
 </div>
