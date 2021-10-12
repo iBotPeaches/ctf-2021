@@ -16,7 +16,7 @@ echo <<<HTML
 <div class="container">
 	<h2>The Sourcetoad CTF (2021)</h2>
 	<p>
-		Find Many. Need ஐந்து. Good Luck. Unlike the Tulip Trust.
+		Find Many. Need ஐந்து (5️⃣). Good Luck. Unlike the Tulip Trust.
 	</p>
 	<br />
 	<pre>DAOT-4-8133536aded89123a249b48d545e4d4d449f07ccff68fe92c2c7be8d510e913da1fd440d242917316e34</pre>
