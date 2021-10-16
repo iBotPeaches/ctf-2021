@@ -1,6 +1,9 @@
 <?php
 $data = $_POST['data'];
 
+error_reporting(0);
+ini_set('display_errors', 0);
+
 libxml_disable_entity_loader (false);
 
 $dom = new DOMDocument();
@@ -11,6 +14,14 @@ $parsedData = json_decode($json, true);
 
 if (isset($parsedData['dogs']['dog'])) {
     $count = count($parsedData['dogs']['dog']);
+
+    $contents = '';
+    foreach ($parsedData['dogs']['dog'] as $item) {
+        $contents .= '<div class="alert alert-success">' .
+            ($item['name'] ?? '?') .
+            ' (' . ($item['type'] ?? '?') . ') has been added!' .
+            '</div>';
+    }
 
     echo <<<HTML
 <!DOCTYPE html>
@@ -23,12 +34,7 @@ if (isset($parsedData['dogs']['dog'])) {
 <body>
 <div class="container">
     <h2>The Sourcetoad CTF (2021)</h2>
-    <div class="text-center">
-        <textarea id="data" name="data" rows="15" cols="50">{$dogs->asXml()}</textarea>
-    </div>
-    <div class="alert alert-success">
-        We have imported $count dog(s). Thank you!!
-    </div>
+    $contents
     <a href="/">Submit Another</a>
 </div>
 </div>
@@ -39,5 +45,24 @@ HTML;
     exit();
 }
 
-header('Location: /');
+echo <<<HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="common/bootstrap.min.css"/>
+    <title>Challenge 15 (External E)</title>
+</head>
+<body>
+<div class="container">
+    <h2>The Sourcetoad CTF (2021)</h2>
+    <div class="alert alert-danger">
+        Pet XML could not be parsed.
+    </div>
+    <a href="/">Submit Another</a>
+</div>
+</div>
+</body>
+</html>
+HTML;
 exit();

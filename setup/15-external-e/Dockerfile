@@ -3,6 +3,7 @@ FROM php:7.4-alpine
 ADD code /code
 ADD cats /cats
 ADD dogs /dogs
+ADD flag /flag
 
 WORKDIR /code
 
