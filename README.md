@@ -71,6 +71,7 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  28. Binary via colors?
  29. dotenv
  30. CVE-2021-21263
+ 31. #544f41 = TOA
 
 ---
 ## CTFD Setup
