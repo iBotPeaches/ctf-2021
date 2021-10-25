@@ -21,7 +21,7 @@ echo <<<HTML
     <h2>The Sourcetoad CTF (2021)</h2>
     <div class="text-center">
         <p>
-            Is it art?
+            Is it art? Or an illegal number?
         </p>
         $content
     </div>
