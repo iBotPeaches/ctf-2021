@@ -36,7 +36,7 @@ if (!$result || mysqli_num_rows($result) <= 0) {
 <div class="container">
     <h2>The Sourcetoad CTF (2021)</h2>
     <div class="alert alert-danger">
-        Oops. Those creds are not right. - <pre>$error</pre>
+        Oops. Those creds are not right. $error
     </div>
 </div>
 </body>
