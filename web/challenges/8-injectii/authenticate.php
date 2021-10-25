@@ -20,6 +20,8 @@ $query = "SELECT * FROM `users` WHERE `username`= '$username' AND `password`='$p
 $result = mysqli_query($conn, $query);
 
 if (!$result || mysqli_num_rows($result) <= 0) {
+    $error = mysqli_error($conn);
+
     echo <<<HTML
 <!DOCTYPE html>
 <html lang="en">
@@ -34,7 +36,7 @@ if (!$result || mysqli_num_rows($result) <= 0) {
 <div class="container">
     <h2>The Sourcetoad CTF (2021)</h2>
     <div class="alert alert-danger">
-        Oops. Those creds are not right.
+        Oops. Those creds are not right. - <pre>$error</pre>
     </div>
 </div>
 </body>
