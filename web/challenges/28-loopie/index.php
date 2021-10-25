@@ -1650,7 +1650,7 @@ echo <<<HTML
     <h2>The Sourcetoad CTF (2021)</h2>
     <div class="text-center">
         <p>
-            The code has ran out of control! Its looping without purpose!
+            The code has ran out of control! Its looping without purpose! If there is a pattern here, it might take us a few refreshes to get it.
         </p>
         $content
     </div>
