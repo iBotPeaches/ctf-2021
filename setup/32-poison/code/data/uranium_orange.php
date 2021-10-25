@@ -1,0 +1,4 @@
+<?php
+
+// https://petroleumservicecompany.com/blog/historys-most-toxic-colors/
+return 'Before World War II, manufacturers often used uranium oxide in colored glazes to produce vibrant red and orange ceramic wear. The problem, of course, is that these pieces of dinnerware were radioactive. Nowadays, we know this was a problem. But people didn\'t understand radiation until the end of the 19th century and its risks until far later. During WWII, all uranium went to bomb development. However, after the war in 1959, uranium restrictions were relaxed and went back to ceramic and glass manufacturing. This was probably not a good call. Some vintage ceramics may still be radioactive, and the EPA advises against eating off them. But for decorative purposes, you\'ll probably be okay.';
