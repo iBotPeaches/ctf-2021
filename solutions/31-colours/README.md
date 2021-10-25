@@ -1,6 +1,6 @@
 # Challenge 31 (Colours) Solve
 
-* Category - Web
+* Category - Medium
 * Difficulty - Web
 
 ![](challenge-31.png)
