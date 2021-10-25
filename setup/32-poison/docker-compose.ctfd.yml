@@ -1,6 +1,6 @@
 version: "3"
 services:
   web:
-    image: registry.ctfd.io/sourcetoad-ctf-2021/challenge-32-02fja34g
+    image: registry.ctfd.io/sourcetoad-ctf-2021/challenge-32-90jrkasdjfalskf
     ports:
       - "80"
