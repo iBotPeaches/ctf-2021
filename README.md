@@ -73,6 +73,7 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  30. CVE-2021-21263
  31. #544f41 = TOA
  32. security.filesystem.nullbytes.php
+ 33. 17 Mistakes Microsoft Made in the Xbox Security System
 
 ---
 ## CTFD Setup
