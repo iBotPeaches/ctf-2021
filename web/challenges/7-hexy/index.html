@@ -13,7 +13,7 @@
         we got some strange output.
     </p>
     <hr />
-<pre>
+<pre onclick="clip(this)">
 ffd8ffe000104a46494600010100000100010000
 ffdb0043001b12141714111b1716171e1c1b2028
 422b28252528513a3d3042605565645f555d5b6a
@@ -1639,5 +1639,15 @@ f4d39152bccf75c3b3362ccd8b3c3391e8667e43
 19ddffd9
 </pre>
 </div>
+<!-- CTF: Just helping you copy/paste. Ignore -->
+<script type="text/javascript">
+    var clip = function(el) {
+        var range = document.createRange();
+        range.selectNodeContents(el);
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+    };
+</script>
 </body>
 </html>

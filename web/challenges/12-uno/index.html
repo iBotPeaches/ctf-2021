@@ -13,7 +13,7 @@
         wumbo mode and spit out this.
     </p>
     <hr />
-    <pre>
+    <pre onclick="clip(this)">
 0000000000a0ffda0008010301013f00251fffd9
 3f00251fffc40014110100000000000000000000
 0000000000000000000000a0ffda000801020101
@@ -450,5 +450,15 @@ ffdb004300100b0c0e0c0a100e0d0e1211101318
 ffd8ffe000104a46494600010100000100010000
 </pre>
 </div>
+<!-- CTF: Just helping you copy/paste. Ignore -->
+<script type="text/javascript">
+    var clip = function(el) {
+        var range = document.createRange();
+        range.selectNodeContents(el);
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+    };
+</script>
 </body>
 </html>
