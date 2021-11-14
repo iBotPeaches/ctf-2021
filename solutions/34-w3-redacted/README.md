@@ -1,6 +1,6 @@
 # Challenge 34 (W3 [Redacted]) Solve
 
-* Category - Normal
+* Category - Medium
 * Difficulty - Laravel
 
 ![](challenge-34.png)
