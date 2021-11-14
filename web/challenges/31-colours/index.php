@@ -4,7 +4,7 @@ $hex = '544f41447b4833582d436f6c4f72352d684944332d3768332d6d3335353439337d';
 $content = '';
 
 foreach (str_split($hex, 6) as $value) {
-    $content .= '<div class="badge" style="width: 100px; height: 100px; background-color: #' . $value . '">&nbsp;</div>';
+    $content .= '<div class="badge" style="width: 100px; height: 100px; background-color: #' . $value . '">&nbsp;</div>&nbsp;';
 }
 
 
