@@ -1,4 +1,4 @@
-➜  6 git:(master) ✗ outguess -k "comic-sans-wood-bark" -d secret.txt doge.jpg out.jpg
+➜  6 git:(master) ✗ outguess -k "cosmic-bark" -d secret.txt doge.jpg out.jpg
 Reading doge.jpg....
 JPEG compression quality set to 75
 Extracting usable bits:   33285 bits
