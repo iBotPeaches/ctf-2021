@@ -4,6 +4,7 @@ _Produced by @iBotPeaches (Connor Tumbleson), for a Q4 2021 Engineer challenge._
  * Originally hosted on CTFd.io with a combination of some t3.nano instance on AWS
  * Most puzzles were simple `index.html` files leading to assets/images/files.
  * Complex puzzles leveraged the services feature of CTFd to deploy a docker image.
+ * Completed on December 3, 2021 at [Sourcetoad](https://www.sourcetoad.com/) with all Engineers.
 
 ---
 
@@ -83,3 +84,9 @@ See [FLAGS.md](solutions/FLAGS.md), but I encourage first reading the [solutions
  * IE (A 1000 point question can only decay to 850)
  * All hints should cost a max of 15% of the question
  * Categories are Web / Steganography / "File/Text" / Cryptography / RE / Laravel
+
+## Thanks
+
+ * Sourcetoad for funding CTFd license
+ * Sourcetoad for giving 4 hours with all engineers for a challenge.
+ * We (Sourcetoad) [may](https://www.sourcetoad.com/careers/) be hiring. Take a look!
